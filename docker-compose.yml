@@ -1,0 +1,5 @@
+version: "3.7"
+services:
+  my-hello:
+    build: .
+    image: hello:${HELLO_VERSION:-latest}
